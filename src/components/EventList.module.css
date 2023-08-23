@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.container > div > table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container > div > table > thead > tr > th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+}
+
+.container > div > table > tbody > tr > td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
